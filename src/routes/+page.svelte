@@ -1,5 +1,5 @@
 <script>
-    const endPlateVideo = '/endPlate.webm';
+    const endPlateVideo = '/endPlate_clean.webm';
 </script>
 
 
