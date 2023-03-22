@@ -3,7 +3,7 @@
 </script>
 
 <div class="container">
-    <video autoplay loop>
+    <video autoplay loop muted>
         <source src={endPlateVideo} type="video/webm" />
         <track kind="captions">
     </video>
