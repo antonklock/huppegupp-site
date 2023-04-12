@@ -30,7 +30,7 @@
 	</div>
 
 	<div class="container">
-		<video autoplay loop muted>
+		<video autoplay loop muted playsinline>
 			<source src={endPlateVideo} type="video/webm" />
 			<track kind="captions" />
 		</video>
