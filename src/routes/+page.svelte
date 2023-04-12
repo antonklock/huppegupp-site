@@ -2,40 +2,60 @@
 	const endPlateVideo = '/endPlate_clean.webm';
 </script>
 
-<div class="logo">
-	<img src="/huppe_logga.png" alt="logo" />
-</div>
+<div class="page-content">
+	<div class="logo">
+		<img src="/huppe_logga.png" alt="logo" />
+	</div>
 
-<div class="teams-content">
-	<h1>Teams</h1>
+	<div class="teams-content">
+		<h1>Teams</h1>
 
-	<div class="teams-container">
-		<div class="team-blob" id="flamingo">
-			<h2>Team Flamingo</h2>
-			<p class="kapten">Kapten Fabian</p>
-			<p>CH</p>
-			<p>Ankan</p>
-			<p>Hampus</p>
-		</div>
+		<div class="teams-container">
+			<div class="team-blob" id="flamingo">
+				<h2>Team Flamingo</h2>
+				<p class="kapten">Kapten Fabian</p>
+				<p>CH</p>
+				<p>Ankan</p>
+				<p>Hampus</p>
+			</div>
 
-		<div class="team-blob" id="enhorning">
-			<h2>Team Enhörning</h2>
-			<p class="kapten">Kapten Arthur</p>
-			<p>Allan</p>
-			<p>Emil</p>
-			<p>Byström</p>
+			<div class="team-blob" id="enhorning">
+				<h2>Team Enhörning</h2>
+				<p class="kapten">Kapten Arthur</p>
+				<p>Allan</p>
+				<p>Emil</p>
+				<p>Byström</p>
+			</div>
 		</div>
 	</div>
-</div>
 
-<div class="container">
-	<video autoplay loop muted>
-		<source src={endPlateVideo} type="video/webm" />
-		<track kind="captions" />
-	</video>
+	<div class="container">
+		<video autoplay loop muted>
+			<source src={endPlateVideo} type="video/webm" />
+			<track kind="captions" />
+		</video>
+	</div>
+
+	<footer class="footer">
+		<div class="footer-container">
+			<h3>The adventure of the year</h3>
+			<p>© 2023 Gert Mönsson | Webdesigner | Dreamweaver 2008</p>
+		</div>
+	</footer>
 </div>
 
 <style>
+	.page-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		height: 100vh;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
 	.logo {
 		display: flex;
 		justify-content: center;
@@ -147,5 +167,33 @@
 
 	.kapten {
 		text-decoration: underline;
+	}
+
+	.footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
+		align-items: center;
+		margin-top: 2rem;
+		font-family: sans-serif;
+		color: red;
+	}
+
+	.footer-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		text-align: center;
+	}
+	.footer-container h3 {
+		margin-bottom: 0;
+		text-shadow: 2px 2px 0px #00000077;
+	}
+	.footer-container p {
+		margin-top: 0;
+		font-size: small;
+		text-shadow: 2px 2px 0px #00000077;
 	}
 </style>
