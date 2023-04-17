@@ -3,28 +3,32 @@
 </script>
 
 <div class="page-content">
-	<div class="logo">
-		<img src="/huppe_logga.png" alt="logo" />
-	</div>
-
 	<div class="teams-content">
+		<div class="logo">
+			<img src="/huppe_logga.png" alt="logo" />
+		</div>
+
 		<h1>Teams</h1>
 
 		<div class="teams-container">
 			<div class="team-blob" id="flamingo">
+				<img src="/flamingo.jpg" alt="flamingo" />
 				<h2>Team Flamingo</h2>
 				<p class="kapten">Kapten Fabian</p>
 				<p>CH</p>
 				<p>Ankan</p>
 				<p>Hampus</p>
+				<p>Albért</p>
 			</div>
 
 			<div class="team-blob" id="enhorning">
+				<img src="/unicorn.jpg" alt="unicorn" />
 				<h2>Team Enhörning</h2>
 				<p class="kapten">Kapten Arthur</p>
 				<p>Allan</p>
 				<p>Emil</p>
 				<p>Byström</p>
+				<p>Oskar</p>
 			</div>
 		</div>
 	</div>
@@ -109,6 +113,7 @@
 		text-shadow: 2px 2px 0px #000000;
 		font-size: 4rem;
 		margin-bottom: 1rem;
+		margin-top: 3rem;
 	}
 
 	.teams-container {
@@ -145,24 +150,16 @@
 		padding: 1rem;
 		border: 1px solid red;
 		border-radius: 0.5rem;
-		/* background-color: #131313; */
-		/* background-color: white; */
-
+		background-color: #0e0e12;
 		min-width: 250px;
 	}
 
-	#flamingo {
-		background-image: url('/flamingo.jpg');
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-
-	#enhorning {
-		background-image: url('/unicorn.jpg');
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
+	.team-blob img {
+		height: 8rem;
+		width: 8rem;
+		border-radius: 10px;
+		margin-bottom: 2rem;
+		margin-top: 1.5rem;
 	}
 
 	.kapten {
