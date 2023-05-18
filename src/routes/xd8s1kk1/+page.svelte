@@ -2,7 +2,10 @@
 </script>
 
 <div class="container">
-	<h1>58.7554977, 13.9272979</h1>
+	<video controls={true}>
+		<source src="huppe23_Clue_02.mp4" type="video/mp4" />
+		<track kind="captions" />
+	</video>
 	<p>3</p>
 </div>
 
@@ -34,5 +37,11 @@
 		text-shadow: 0 0 10px #000;
 		font-family: sans-serif;
 		color: yellow;
+	}
+
+	video {
+		width: 50vw;
+		height: auto;
+		/* object-fit: cover; */
 	}
 </style>
