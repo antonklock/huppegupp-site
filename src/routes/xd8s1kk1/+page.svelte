@@ -31,7 +31,7 @@
 	}
 
 	p {
-		font-size: 2vw;
+		font-size: 5rem;
 		font-weight: 900;
 		color: #fff;
 		text-shadow: 0 0 10px #000;
@@ -40,7 +40,7 @@
 	}
 
 	video {
-		width: 50vw;
+		width: 90vw;
 		height: auto;
 		/* object-fit: cover; */
 	}

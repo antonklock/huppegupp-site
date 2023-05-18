@@ -31,7 +31,7 @@
 	}
 
 	video {
-		width: 50vw;
+		width: 90vw;
 		height: auto;
 		/* object-fit: cover; */
 	}
