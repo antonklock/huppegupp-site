@@ -2,7 +2,8 @@
 </script>
 
 <div class="container">
-	<h1>61.2847 22.3432</h1>
+	<h1>58.7554977, 13.9272979</h1>
+	<p>3</p>
 </div>
 
 <style>
@@ -18,11 +19,20 @@
 	}
 
 	h1 {
-		font-size: 10vw;
+		font-size: 5vw;
 		font-weight: 900;
 		color: #fff;
 		text-shadow: 0 0 10px #000;
 		font-family: sans-serif;
 		color: red;
+	}
+
+	p {
+		font-size: 2vw;
+		font-weight: 900;
+		color: #fff;
+		text-shadow: 0 0 10px #000;
+		font-family: sans-serif;
+		color: yellow;
 	}
 </style>

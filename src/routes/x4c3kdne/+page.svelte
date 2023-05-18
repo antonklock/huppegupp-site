@@ -2,7 +2,7 @@
 </script>
 
 <div class="container">
-	<h1>60.2314 21.5342</h1>
+	<h1>58.7870448, 13.7397870</h1>
 </div>
 
 <style>
@@ -18,7 +18,7 @@
 	}
 
 	h1 {
-		font-size: 10vw;
+		font-size: 5vw;
 		font-weight: 900;
 		color: #fff;
 		text-shadow: 0 0 10px #000;
